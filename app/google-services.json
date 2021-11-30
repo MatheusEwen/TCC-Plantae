@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "25098731460",
+    "project_id": "appplantae-50009",
+    "storage_bucket": "appplantae-50009.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25098731460:android:492479ad3b022afab2ee91",
+        "android_client_info": {
+          "package_name": "etec.com.ewen.matheus.appplantae"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25098731460-hg02f2h5nl9alr9ifo76gmqeeq168ato.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "etec.com.ewen.matheus.appplantae",
+            "certificate_hash": "543bedf289a069fb350ecab3c7d8ca0e91490be8"
+          }
+        },
+        {
+          "client_id": "25098731460-md56g3q7tcetnnah0295fh04urv3fqc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbp6tl_oYrIsNOuvtT1u7TIeCj9Rihl_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25098731460-md56g3q7tcetnnah0295fh04urv3fqc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

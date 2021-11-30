@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_regar"
+            android:icon="@drawable/regadorparamenu"
+            android:title="@string/menu_home"
+            />
+        <item
+            android:id="@+id/nav_cadastrar"
+            android:icon="@drawable/pasta"
+            android:title="Cadastrar" />
+        <item
+            android:id="@+id/nav_visualizar"
+            android:icon="@drawable/ver"
+            android:title="Visualizar" />
+        <item
+            android:id="@+id/nav_guias"
+            android:icon="@drawable/mapaparamenu"
+            android:title="Guias"
+            />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/vasodeplantamenu"
+            android:title="Help"/>
+        <item
+            android:id="@+id/nav_sobre"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="Sobre" />
+    </group>
+</menu>

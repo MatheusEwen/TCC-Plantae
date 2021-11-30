@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_regar">
+
+    <fragment
+        android:id="@+id/nav_regar"
+        android:name="etec.com.ewen.matheus.appplantae.ui.regar.Regar"
+        android:label="Regar"
+        tools:layout="@layout/fragment_regar" />
+    <fragment
+        android:id="@+id/nav_guias"
+        android:name="etec.com.ewen.matheus.appplantae.ui.guias.Guias"
+        android:label="Guias"
+        tools:layout="@layout/fragment_guias" />
+    <fragment
+        android:id="@+id/nav_cadastrar"
+        android:name="etec.com.ewen.matheus.appplantae.ui.cadastrar.CadastrarPlanta"
+        android:label="Cadastrar"
+        tools:layout="@layout/fragment_cadastrar_planta" />
+    <fragment
+        android:id="@+id/nav_visualizar"
+        android:name="etec.com.ewen.matheus.appplantae.ui.visualizar.Visualizar"
+        android:label="Visualizar"
+        tools:layout="@layout/fragment_visualizar" />
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="etec.com.ewen.matheus.appplantae.ui.help.Help"
+        android:label="Help"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/nav_sobre"
+        android:name="etec.com.ewen.matheus.appplantae.ui.sobre.Sobre"
+        android:label="Sobre"
+        tools:layout="@layout/fragment_sobre" />
+
+
+</navigation>

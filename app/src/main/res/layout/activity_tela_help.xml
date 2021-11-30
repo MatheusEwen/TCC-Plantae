@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.TelaHelp">
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/neuton_extralight"
+        android:text="Help"
+        android:textColor="@color/marrom"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="Para que o diagnóstico fique mais exato observe bem a aparência de sua planta e selecione 2 caracteristicas abaixo. Se atente a que tipo de luminosidade a sua planta está exposta (você pode ter mais informações sobre na sessão guias do App). "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView56" />
+
+    <RadioGroup
+        android:id="@+id/rdgLuzHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView60">
+
+        <RadioButton
+            android:id="@+id/rdbDireta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Luz Direta" />
+
+        <RadioButton
+            android:id="@+id/rdbDifusa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Luz Difusa" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Selecione a luminosidade:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView59" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Selecione as caracteristicas das folhas da sua planta:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rdgLuzHelp" />
+
+    <CheckBox
+        android:id="@+id/amarelada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="20dp"
+        android:text="Amarelada"
+        app:layout_constraintEnd_toStartOf="@+id/murcha"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView61" />
+
+    <CheckBox
+        android:id="@+id/cauleFino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="8dp"
+        android:text="Caule fino"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/furada" />
+
+    <CheckBox
+        android:id="@+id/roxo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="8dp"
+        android:text="Folhas Roxas"
+        app:layout_constraintStart_toEndOf="@+id/cauleFino"
+        app:layout_constraintTop_toBottomOf="@+id/pontospretos" />
+
+    <CheckBox
+        android:id="@+id/moleTrans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="8dp"
+        android:text="Mole e transparente"
+        app:layout_constraintStart_toEndOf="@+id/roxo"
+        app:layout_constraintTop_toBottomOf="@+id/queda" />
+
+    <CheckBox
+        android:id="@+id/furada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="8dp"
+        android:text="Furada"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/amarelada" />
+
+    <CheckBox
+        android:id="@+id/bordaSeca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="8dp"
+        android:text="Bordas Secas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/roxo" />
+
+    <CheckBox
+        android:id="@+id/queda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="8dp"
+        android:text="Folhas caindo"
+        app:layout_constraintStart_toEndOf="@+id/pontospretos"
+        app:layout_constraintTop_toBottomOf="@+id/pontasSecas" />
+
+    <CheckBox
+        android:id="@+id/murcha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Murchas"
+        app:layout_constraintStart_toEndOf="@+id/amarelada"
+        app:layout_constraintTop_toBottomOf="@+id/textView61" />
+
+    <CheckBox
+        android:id="@+id/pontospretos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="8dp"
+        android:text="Pontos pretos"
+        app:layout_constraintStart_toEndOf="@+id/furada"
+        app:layout_constraintTop_toBottomOf="@+id/murcha" />
+
+    <CheckBox
+        android:id="@+id/pontasSecas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="44dp"
+        android:text="Pontas Secas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView61" />
+
+    <Button
+        android:id="@+id/btnDiagnostico"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Diagnóstico"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bordaSeca" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

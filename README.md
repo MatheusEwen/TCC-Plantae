@@ -5,4 +5,5 @@
 </div>
 
  ## Desenvolvedores
-- [@MatheusEwen](https://github.com/MatheusEwen)
+- [@Matheus Ewen Ferreira Barbosa](https://github.com/MatheusEwen)
+- [@Leonardo Machado de Siqueira](https://github.com/FireWolf014)

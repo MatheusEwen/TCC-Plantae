@@ -18,7 +18,7 @@ do projeto foi desenvolver um aplicativo Mobile Android.</p>
 
 ## Aplicativo
 
-<p>O apllicativo tem o tema voltado para jardinagem, que ajuda o usúario a cuidar das plantas do seu jardim. No app tem várias funções como: </p>
+<p>O aplicativo tem o tema voltado para jardinagem, que ajuda o usuário a cuidar das plantas do seu jardim. No app tem várias funções como: </p>
 
 - 🧒👩 Casdastro e login de usúario 
 - 🍃 Cadastrar plantas

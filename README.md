@@ -14,7 +14,7 @@
 
 ## Sobre o Projeto
 <p> Esse é o Trabalho de Conclusão de Curso(TCC), Desenvolvido pelos alunos da Etec de Franco da Rocha, durante o periodo de pandemia. A proposta
-do projeto foi desenvolver um aplicativo Mobile Android.</p>
+do projeto foi desenvolver um aplicativo Mobile Android. Foram usados serviços do Firebase.</p>
 
 ## Aplicativo
 

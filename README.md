@@ -1,18 +1,19 @@
-# TCC-Plantae
+<div align="center">
+ <h1>🌱🌱Plantae🌱🌱</h1>
+</div>
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/72282924/144150432-a99d35b1-518e-4b92-bd02-7568402cf958.jpg" />
+<img src="https://user-images.githubusercontent.com/72282924/144152395-0de1899f-ca12-4479-824f-5f7e99f83dbb.jpeg" />
 </div>
 
  ## Desenvolvedores
- 
 - [@Matheus Ewen Ferreira Barbosa](https://github.com/MatheusEwen)
-
 - [@Leonardo Machado de Siqueira](https://github.com/FireWolf014)
+- [@Leticia Farias]()
+- [@Willians]()
 
 ## Sobre o Projeto
-
-
+<p> Esse é o Trabalho de Conclusão de Curso(TCC) </p>
 
 ## Licença
 
